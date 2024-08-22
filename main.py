@@ -21,8 +21,8 @@ def monitor_print_jobs():
             finally:
                 win32print.ClosePrinter(printer_handle)
 
-        time.sleep(1)
-        # pass
+        # time.sleep(1)
+        pass
 
 def start_monitoring():
     monitoring_thread = threading.Thread(target=monitor_print_jobs)
